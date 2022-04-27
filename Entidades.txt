@@ -1,0 +1,58 @@
+Usuario - User
+	id
+	name
+	age
+
+Tipo Conta - TypeAccount
+	id
+	nome
+	descricao
+	
+Negócio - Business
+	id
+	name
+	description
+	
+Produto - Product
+	id
+	idBusiness
+	description
+	value
+		
+Conta - Account
+	id
+	idUser
+	idTypeAccount
+	idBusiness
+	email
+	password
+	nickname
+
+Pet
+	id
+	idUser
+	name
+	species
+	breed
+	age
+	
+Historico Pet - PetHistory
+	id
+	idPet
+	description
+	date
+	
+Adoção - Adoption
+	id
+	idPet
+	idUserOld
+	idUserNew
+	date
+	
+Negociação - Negotiation
+	id
+	idUser
+	idProduct
+	value
+	date
+
